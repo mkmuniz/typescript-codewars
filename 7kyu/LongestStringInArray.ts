@@ -9,9 +9,7 @@ export function longestConsec(strarr: string[], k: number): string {
         arrConc.push(value)
     }
 
-    arrConc.forEach((word: string) => {
-        if (word.length > longestWord.length) longestWord = word;
-    })
+    arrConc.forEach((word: string) => { if (word.length > longestWord.length) longestWord = word;})
 
     return longestWord;
 }
