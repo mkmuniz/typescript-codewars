@@ -1,4 +1,4 @@
-# typescript-codewars
+# About
 
 **1 - What is Codewars?**
 
